@@ -1,0 +1,115 @@
+.o-header{
+    grid-area: header;
+    height: 100vh
+}
+.aboutme {
+    background: url("../img/fundo.jpg") no-repeat;
+    background-size: 100vw 100vh;
+    height: 50vh;
+}
+.header-painel{
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 120px;    
+    justify-content: space-between;
+    background-color: var(--header-painel-background);
+}
+.header-logo-img {
+width: 250px;
+
+}
+.header-logo-img img{
+    width: 250px;
+    margin-top: -50px;
+    margin-right: -4vw;
+}
+.nav-1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ul {
+    display: flex;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    margin-top:15px;
+    padding-left: 10px;
+}
+ul a li img {
+    position: relative;
+    width: 30px;
+}
+i{
+    display: block;
+    font-size: 20px;
+    color: black;
+}
+.align-itens{
+    text-align: center;
+}
+.nav-social{
+    margin-right: 30px;
+}
+.nav-social h1{
+    font-size: 25px;
+}
+.nav-social img{
+    margin-top: -11px;
+}
+.gitbut{
+    z-index:1 ;
+    position:fixed;
+    top: 10rem;
+    left: 0vw;
+    width: 25px;
+    text-decoration: none;
+    background-color:var( --github-color);
+    padding: 0.3rem 0.5rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.gitbut img{
+    width: 25px;
+}
+.text{
+    position: relative;
+    margin-top: -20px;
+    left: 40%;
+    display:block;
+    padding: 8px 13px;
+    color: #efefef;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    transform: translate(-130%, -50%) translateZ(0);
+    border-radius: 3px;
+    background: var( --github-color);
+    border-right-color: var( --github-color);
+    transition: all .3s ease-in-out;
+    z-index: -1;
+    width: 120px;
+        
+}
+.text::before{
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      top: 50%;
+      right: 100%;
+      margin-top: 5px * -1;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent; 
+      border-right: 5px solid #efefef;
+      border-right-color: inherit;
+}
+.gitbut:hover .text{
+    transform: translate(25%, -50%);
+}

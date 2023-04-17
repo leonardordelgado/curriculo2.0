@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pub/css/reset.css">
+    <link rel="stylesheet" href="pub/css/global.css">
+    <link rel="stylesheet" href="pub/css/header.css">
+    <link rel="stylesheet" href="pub/css/aside.css">
+    <link rel="stylesheet" href="pub/css/main.css">
+    <link rel="stylesheet" href="pub/css/footer.css">
+    <title>Leonardo Delgado Blog</title>
+</head>
+<body>
+    <div class="o-header">
+        <div class="aboutme">
+            <div class="header-painel">
+                {{>header}}
+                {{>nav_one}}               
+            </div>
+            {{>painel}}  
+        </div>
+
+    </div> 
+   
+    <main class="o-main">
+        {{{body}}}
+    </main>
+    {{>footer}}
+
+</body>
+</html>

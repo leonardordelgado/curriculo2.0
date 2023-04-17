@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    overflow:hidden;
+}
+:root{
+    --header-painel-background: rgba(255, 255, 255, 0.28);
+    --github-color:rgb(5, 27, 44);
+}
+

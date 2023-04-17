@@ -1,0 +1,23 @@
+{
+    "name": "curriculo2.0",
+    "version": "2.0.0",
+    "type": "module",
+    "description": "curriculo online",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Leonardo resende delgado",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-handlebars": "^7.0.4",
+        "handlebars": "^4.7.7",
+        "mysql2": "^3.2.1",
+        "sequelize": "^6.31.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
