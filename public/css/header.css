@@ -76,12 +76,13 @@ i{
 
 }
 .gitbut img{
+    margin-top:8px ;
     width: 25px;
 }
 .text{
     position: relative;
     margin-top: -20px;
-    left: 40%;
+    left: 70%;
     display:block;
     padding: 8px 13px;
     color: #efefef;
@@ -94,7 +95,7 @@ i{
     border-right-color: var( --github-color);
     transition: all .3s ease-in-out;
     z-index: -1;
-    width: 120px;
+    width: 50px;
         
 }
 .text::before{

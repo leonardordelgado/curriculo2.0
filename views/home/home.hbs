@@ -1,1 +1,125 @@
-teste
+<ul class="style1 buttons" >
+    <li>
+        <a href="#habilidades" class="bt" >HABILIDADES</a>
+    </li>
+</ul>
+
+<hr class="style1">
+
+<div  id="habilidades" class="style1 container default">
+    <div class="wrapper">
+        <div class="inner">
+            <div class="inner">
+                <div class="cointainer-card">
+                    {{#each post}}
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="https://raw.githubusercontent.com/Jhonierpc/WebDevelopment/master/CSS%20Card%20Hover%20Effects/img/design_128.png" alt="">
+                                    <H3>{{dataValues.title}}</H3>                            
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <p>
+                                        {{dataValues.text}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="style1">
+
+<ul class="style1 buttons" >
+    <li>
+        <a href="#sobre" class="bt DF" >SOBRE</a>
+    </li>
+</ul>
+
+<hr class="style1">
+
+<div  id="sobre" class="style1 container default">
+    <div class="wrapper">
+        <div class="inner">
+            <div class="inner">
+                <div class="infor-sobres">
+                    <img src="/pub/img/avata.jpeg" alt="">
+                    <h4>Desenvolvedor de soluções ágeis</h4>
+                    <h1>LEONARDO RESENDE DELGADO</h1>
+                    <p>
+                        Desenvolvedor backend e frontend que está em constante evolução para melhor atender as expectativas de um mercado competitivo e dinâmico.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="style1">
+
+<ul class="style1 buttons" >
+    <li>
+        <a href="#contatos" class="bt DF" >Contatos</a>
+    </li>
+</ul>
+
+<hr class="style1">
+
+<div  id="contatos" class="style1 container default">
+    <div class="wrapper">
+        <div class="inner">
+            <div class="inner">
+                <div class="contatos">
+                    <ul>
+                        <div class="space">
+                            <a href="/externo/instagram" target="_blank">
+                                <li>
+                                    <div class="align-itens instagram">
+                                        <img src="/pub/img/icons/instagram.png" alt="link home">
+                                        <i>INSTAGRAM</i>
+                                    </div>
+                                </li>
+                            </a>
+                        </div>
+                        <div class="space">
+                            <a href="/externo/linkedin/" target="_blank">
+                                <li>
+                                    <div class="align-itens linkedin">
+                                        <img src="/pub/img/icons/linkedin.png" alt="link home">
+                                        <i>LINKEDIN</i>
+                                    </div>
+                                </li>
+                            </a>
+                        </div>
+                        <div class="space">
+                            <a href="/externo/git/" target="_blank">
+                                <li>
+                                    <div class="align-itens linkedin">
+                                        <img src="/pub/img/icons/github.png" alt="link home">
+                                        <i>GITHUB</i>
+                                    </div>
+                                </li>
+                            </a>
+                        </div>
+                        <div class="space">
+                            <a href="mailto:leoresende2010hotmail.com" target="_blank">
+                                <li>
+                                    <div class="align-itens email">
+                                        <img src="/pub/img/icons/email.png" alt="link home">
+                                        <i>E-MAIL</i>
+                                    </div>
+                                </li>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -2,13 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="pub/css/reset.css">
     <link rel="stylesheet" href="pub/css/global.css">
     <link rel="stylesheet" href="pub/css/header.css">
     <link rel="stylesheet" href="pub/css/aside.css">
     <link rel="stylesheet" href="pub/css/main.css">
     <link rel="stylesheet" href="pub/css/footer.css">
+    <link rel="stylesheet" href="/pub/css/sectionOne.css">
+    <link rel="stylesheet" href="/pub/css/geral.css">
+    <link rel="stylesheet" href="/pub/css/habilidades.css">
+    <link rel="stylesheet" href="/pub/css/card.css">
+    <link rel="stylesheet" href="/pub/css/sobre.css">
+    <link rel="stylesheet" href="/pub/css/contatos.css">
     <title>Leonardo Delgado Blog</title>
+
 </head>
 <body>
     <div class="o-header">
@@ -17,15 +27,21 @@
                 {{>header}}
                 {{>nav_one}}               
             </div>
-            {{>painel}}  
+            {{>painel}} 
         </div>
-
+        {{>sectionOne}} 
     </div> 
    
-    <main class="o-main">
-        {{{body}}}
+    <main class="o-main main">
+        <div class="inner">
+            {{{body}}}
+        </div>
+        
     </main>
     {{>footer}}
+
+<!--scripts-->
+<script type="module" src="/pub/js/maquinaDeEscrever.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,37 @@
+
+.infor-sobres{
+    background:rgba(169, 169, 170, 0.753);
+    width: 40rem;
+    height: auto;
+    padding-bottom: 5rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.infor-sobres img{
+    left: 0;
+    border: solid 3px white;
+    padding: 5px;
+    border-radius: 50%;
+    width:150px;
+    margin-top: 1rem;
+}
+.infor-sobres h1, h4, p{
+    color:white ;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.infor-sobres h1{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.infor-sobres h4{
+    margin-top: 20px;
+    font-size: 1em;
+}
+.infor-sobres p{
+    margin: 20px 10px 0 0;
+    font-size: 20px;
+}

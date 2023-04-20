@@ -1,0 +1,23 @@
+.contatos {
+   display: flex; 
+   justify-content: space-evenly;
+}
+.space{
+   padding-left: 40px;
+}
+.contatos a img{
+    padding: 5px;
+    border-radius: 10%;
+    width:50px;
+    margin-top: 1rem;
+}
+.instagram img{
+    border: solid 3px rgb(222, 124, 124);
+}
+.linkedin img{
+    border: solid 3px rgb(124, 186, 222);
+}
+.email img{
+    border: solid 3px rgba(143, 250, 154, 0.786);
+}
+

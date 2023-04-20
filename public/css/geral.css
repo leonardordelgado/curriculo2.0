@@ -1,0 +1,125 @@
+.main {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+    --border-radius-tl: 0;
+    --border-radius-tr: 0;
+    --border-radius-br: 0;
+    --border-radius-bl: 0;
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+    text-align: var(--alignment);
+    z-index: 1;
+    transition: opacity 2s ease-in-out 0s;
+}
+.inner{
+    --padding-horizontal: 4rem;
+    --padding-vertical: 4rem;
+    --spacing: 0rem;
+    border-radius: var(--border-radius-tl) var(--border-radius-tr)
+     var(--border-radius-br) var(--border-radius-bl);
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+.buttons{
+    margin-top: -10rem;
+    cursor: default;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+}
+.buttons ul{
+    list-style: none;
+}
+.buttons{
+    gap: 0rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.buttons li{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.buttons .bt{
+    border: solid 1px rgba(61,61,61,0.212);
+}.buttons .DF{
+    margin-top: 9rem;
+}
+.buttons.style1 li a {
+    display: inline-block;
+    width: 10rem;
+    height: 3.5rem;
+    line-height: calc(3.5rem - 2px);
+    padding: 0 0.5rem;
+    vertical-align: middle;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    direction: ltr;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+hr{
+    border: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+hr.style1:before {
+    height: 5rem;
+    border-left: solid 1px rgba(61,61,61,0.212);
+    width: 1px;
+}
+hr:before {
+    content: '';
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container.style1 {
+    --alignment: left;
+    --flex-alignment: flex-start;
+    --indent-left: 1;
+    --indent-right: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-color: rgba(61,61,61,0.212);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5rem;
+}
+.container {
+    position: relative;
+}
+.container.style1 > .wrapper {
+    width: 100%;
+}
+.container > .wrapper {
+    vertical-align: top;
+    position: relative;
+    max-width: 100%;
+    border-radius: inherit;
+}
+.container.style1 > .wrapper > .inner {
+    --gutters: 8rem;
+    --padding-horizontal: -4rem;
+    --padding-vertical: -4rem;
+    --spacing: 1.5rem;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+    border-radius: calc(0.5rem - 1px);
+}

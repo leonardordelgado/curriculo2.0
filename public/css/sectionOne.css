@@ -1,0 +1,15 @@
+.maquina{
+    display: flex;
+    justify-content: center;
+    margin-top:20vh;
+}
+.text-maq{
+    display: block;
+    width: 34rem;
+    justify-content: left;
+    height: 25vh;
+}
+.text-maq h2{
+    font-family: 'Mitr', sans-serif;
+}
+
