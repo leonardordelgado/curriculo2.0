@@ -18,6 +18,7 @@ const PASSWORD_PRODUCTION = process.env.DB_PASSWORD_PRODUCTION
 //função que ira verificar de em qual banco deve ser conectar  
 function dbConect(){
   if(process.env.NODE_ENV == "production"){
+    console.log(HOST_PRODUCTION)
     return new Sequelize(DATABASE_PRODUCTION,USER_PRODUCTION,PASSWORD_PRODUCTION,{
       host:HOST_PRODUCTION,
       dialect:'mysql'
