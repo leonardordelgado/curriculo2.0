@@ -1,4 +1,6 @@
+
 import {msgHora} from "/back/js/dataHora.js"
+
 const msg = msgHora()
 window.onload= ()=>{
     const text1 = document.querySelector(".text1")
@@ -25,3 +27,5 @@ window.onload= ()=>{
     
     typeWrite(titulo1, text1, () => typeWrite(titulo2, text2, ()=> typeWrite(titulo3, text3)));
 }
+
+

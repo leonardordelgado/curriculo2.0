@@ -34,8 +34,13 @@
 .cointainer-card .card:hover .face.face1 .content{
     opacity: 1;
 }
-.cointainer-card .card .face.face1 .content img{
-    max-width: 100px;
+.cointainer-card .card .face.face1 .content .faixacert{
+    display: block;
+    width: 200px;
+}
+.cointainer-card .card .face.face1 .content .alura{
+    display: block;
+    width: 200px;
 }
 .cointainer-card .card .face.face1 .content h3{
     margin: 10px 0 0;
@@ -43,6 +48,12 @@
     color: #fff;
     text-align: center;
     font-size: 1.5em;
+}
+.cointainer-card .card .face.face2 .content .text-cards{
+    color: black;
+}
+.cointainer-card .card .face.face3 .content .text-cards{
+    color: black;
 }
 .cointainer-card .card .face.face2{
     position: relative;
@@ -56,5 +67,19 @@
     transform: translateY(-100px);
 }
 .cointainer-card .card:hover .face.face2{
+    transform: translateY(0);
+}
+.cointainer-card .card .face.face3{
+    overflow: auto;
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}.cointainer-card .card:hover .face.face3{
     transform: translateY(0);
 }

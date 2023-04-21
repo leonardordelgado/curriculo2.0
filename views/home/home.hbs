@@ -1,11 +1,10 @@
+<!--habilidades-->
 <ul class="style1 buttons" >
     <li>
         <a href="#habilidades" class="bt" >HABILIDADES</a>
     </li>
 </ul>
-
 <hr class="style1">
-
 <div  id="habilidades" class="style1 container default">
     <div class="wrapper">
         <div class="inner">
@@ -21,7 +20,7 @@
                             </div>
                             <div class="face face2">
                                 <div class="content">
-                                    <p>
+                                    <p class="text-cards">
                                         {{dataValues.text}}
                                     </p>
                                 </div>
@@ -33,17 +32,15 @@
         </div>
     </div>
 </div>
-
 <hr class="style1">
 
+<!--sobre-->
 <ul class="style1 buttons" >
     <li>
         <a href="#sobre" class="bt DF" >SOBRE</a>
     </li>
 </ul>
-
 <hr class="style1">
-
 <div  id="sobre" class="style1 container default">
     <div class="wrapper">
         <div class="inner">
@@ -60,17 +57,59 @@
         </div>
     </div>
 </div>
-
 <hr class="style1">
 
+<!--Cursos e certificados-->
 <ul class="style1 buttons" >
     <li>
-        <a href="#contatos" class="bt DF" >Contatos</a>
+        <a href="#certificados" class="bt DF" >CERTIFICADOS</a>
     </li>
 </ul>
-
+<hr class="style1">
+<div  id="certificados" class="style1 container default">
+    <div class="wrapper">
+        <div class="inner">
+            <div class="inner">
+                <div class="cointainer-card">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="/pub/img/logo-alura.svg" class="alura"alt="">
+                                <img src="/pub/img/ribbon-banner-alura.svg" class="faixacert" alt="">
+                                 <H3></H3>                            
+                            </div>
+                        </div>
+                        <div class="face face3">
+                            <div class="content">
+                                <div class="title-text-couser">
+                                    <p class="text-cards">Formação:</p>
+                                    {{#each titleAlura}}
+                                        <p class="text-cards">{{title}}</p>
+                                    {{/each}}
+                                </div>
+                                <div class="title-couser">
+                                    <p class="text-cards">Formação:</p>
+                                    {{#each lerJasonCourse}}
+                                        <p class="text-cards cursos">{{cursos}}</p>
+                                    {{/each}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <hr class="style1">
 
+<!--contatos-->
+<ul class="style1 buttons" >
+    <li>
+        <a href="#contatos" class="bt DF" >CONTATOS</a>
+    </li>
+</ul>
+<hr class="style1">
 <div  id="contatos" class="style1 container default">
     <div class="wrapper">
         <div class="inner">

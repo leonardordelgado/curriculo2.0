@@ -10,11 +10,15 @@
     "author": "Leonardo resende delgado",
     "license": "ISC",
     "dependencies": {
+        "body-parser": "^1.20.2",
         "dotenv": "^16.0.3",
         "express": "^4.18.2",
         "express-handlebars": "^7.0.4",
+        "fs": "^0.0.1-security",
         "handlebars": "^4.7.7",
         "mysql2": "^3.2.1",
+        "node-fetch": "^3.3.1",
+        "puppeteer": "^19.10.0",
         "sequelize": "^6.31.0"
     },
     "devDependencies": {

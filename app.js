@@ -1,10 +1,12 @@
 import express  from "express";//estancia do express
 import handlebars from "express-handlebars";//estanciando o hbs
 import PORT from "./backend/server/server.js"
+import bodyParser from "body-parser";
 //configurações do banco de dados
 import db from "./backend/db/conectDb.js";//estancia da conexão com o banco
 import Users from "./backend/models/user.js";//estancia do model de usuario
 import Post from "./backend/models/post.js";//estancia do model dos posts
+import {pupper} from "./backend/js/pupperteer.js";
 
 const app = express()//referenciando o express
 
@@ -21,15 +23,17 @@ app.use("/pub", express.static("public"))
 app.use('/back', express.static("backend"))
 
 //middleware
+app.use(bodyParser.json())
 app.use(express.json());
 app.use((req, res, next) =>{
     console.log("testendo o midleware")
     next()
 })
 
+
 //use de rotas
 app.use("/", home)// informe de user da rota 
 app.use("/externo/", externo)
 app.listen(PORT(),()=>{
     console.log("servidor em execuxão")
-})
+},pupper())
