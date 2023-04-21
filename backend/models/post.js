@@ -1,5 +1,5 @@
 import { Sequelize}  from "sequelize";
-import db from "../db/ConectDb.js" 
+import db from "../db/conectDb.js" 
 const Post = db.define('posts',{
     id:{
         type: Sequelize.INTEGER,
