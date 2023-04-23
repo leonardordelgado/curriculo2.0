@@ -29,6 +29,17 @@
     z-index: 1;
     padding: var(--padding-vertical) var(--padding-horizontal);
 }
+.inner-auternativo{
+    --padding-horizontal: 1rem;
+    --padding-vertical: 5rem;
+    --spacing: 0rem;
+    border-radius: var(--border-radius-tl) var(--border-radius-tr)
+     var(--border-radius-br) var(--border-radius-bl);
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
 .buttons{
     margin-top: -10rem;
     cursor: default;

@@ -1,10 +1,76 @@
-.title-text-couser{
-    border: solid 1px rgba(61,61,61,0.212);
-    padding: 3px;
-    width:15.5rem;
+
+.cointainer-card .card-cert{
+    padding-left: 1rem;
+    position: relative;
+    cursor: pointer;
+    height: 200px;
+}
+.cointainer-card .card-cert .face-cert{
+    width: 650px;
+    height: 200px;
+    transition: 0.5s;
+}
+.cointainer-card .card-cert .face-cert.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+    margin-top: -6.2rem;
+}
+.cointainer-card .card-cert:hover .face-cert.face1{
+    background:  #5396FF;
+    transform: translateY(0);
+}
+.cointainer-card .card-cert .face-cert.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+.cointainer-card .card-cert:hover .face-cert.face1 .content{
+    opacity: 1;
+}
+.cointainer-card .card-cert .face-cert.face1 .content .faixacert{
+    display: block;
+    width: 200px;
+}
+.cointainer-card .card-cert .face-cert.face1 .content .alura{
+    display: block;
+    width: 200px;
+}
+.cointainer-card .card-cert .face-cert.face3 .content .text-cards{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    padding-left: 1rem;
+}
+.cointainer-card .card-cert .face-cert.face3{
+    overflow: auto;
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+.cointainer-card .card-cert .face-cert.face3::-webkit-scrollbar {
+  width: 5px;
+}
+.cointainer-card .card-cert .face-cert.face3::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+}
+.cointainer-card .card-cert .face-cert.face3::-webkit-scrollbar-thumb{
+     background: #333;
+}
+.cointainer-card .card-cert:hover .face-cert.face3{
+    transform: translateY(0);
 }
 .title-couser{
     border: solid 1px rgba(61,61,61,0.212);
-    padding: 3px;
-    width:15.5rem;
+    padding: 5px;
 }
