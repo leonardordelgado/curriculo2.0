@@ -1,40 +1,40 @@
 {
   "curso": [
     {
-      "cursos": "JavaScript:explorandoalinguagem(de17/01/2022a17/01/2022)10hrs"
+      "cursos": "  JavaScript: explorando a linguagem  (de 17/01/2022 a  17/01/2022)  10hrs         "
     },
     {
-      "cursos": "JavaScript:programandoaOrientaçãoaObjetos(de17/01/2022a16/04/2023)10hrs"
+      "cursos": "  JavaScript: programando a Orientação a Objetos  (de 17/01/2022 a  16/04/2023)  10hrs         "
     },
     {
-      "cursos": "JavaScriptnaWeb:armazenandodadosnonavegador(de16/04/2023a17/04/2023)6hrs"
+      "cursos": "  JavaScript na Web: armazenando dados no navegador  (de 16/04/2023 a  17/04/2023)  6hrs         "
     },
     {
-      "cursos": "JavaScript:manipulandooDOM(de16/04/2023a16/04/2023)6hrs"
+      "cursos": "  JavaScript: manipulando o DOM  (de 16/04/2023 a  16/04/2023)  6hrs         "
     },
     {
-      "cursos": "JavaScript:consumindoetratandodadosdeumaAPI(de19/04/2023a20/04/2023)6hrs"
+      "cursos": "  JavaScript: consumindo e tratando dados de uma API  (de 19/04/2023 a  20/04/2023)  6hrs         "
     },
     {
-      "cursos": "JavaScript:validaçõesereconhecimentodevoz(de17/04/2023a19/04/2023)6hrs"
+      "cursos": "  JavaScript: validações e reconhecimento de voz  (de 17/04/2023 a  19/04/2023)  6hrs         "
     },
     {
-      "cursos": "Azure:DeploydeumawebappnanuvemdaMicrosoft(de01/05/2022a09/05/2022)12hrs"
+      "cursos": "  Azure: Deploy de uma webapp na nuvem da Microsoft  (de 01/05/2022 a  09/05/2022)  12hrs         "
     },
     {
-      "cursos": "GiteGithub:controleecompartilheseucódigo(de25/04/2022a25/04/2022)6hrs"
+      "cursos": "  Git e Github: controle e compartilhe seu código  (de 25/04/2022 a  25/04/2022)  6hrs         "
     },
     {
-      "cursos": "MicrosoftAZ-900parte1:AzureFundamentals(de09/05/2022a11/05/2022)8hrs"
+      "cursos": "  Microsoft AZ-900 parte 1: Azure Fundamentals  (de 09/05/2022 a  11/05/2022)  8hrs         "
     },
     {
-      "cursos": "MicrosoftAZ-900parte2:AzureFundamentals(de11/05/2022a16/05/2022)8hrs"
+      "cursos": "  Microsoft AZ-900 parte 2: Azure Fundamentals  (de 11/05/2022 a  16/05/2022)  8hrs         "
     },
     {
-      "cursos": "MicrosoftAZ-900parte3:AzureFundamentals(de16/05/2022a29/07/2022)8hrs"
+      "cursos": "  Microsoft AZ-900 parte 3: Azure Fundamentals  (de 16/05/2022 a  29/07/2022)  8hrs         "
     },
     {
-      "cursos": "MicrosoftAZ-900parte4:AzureFundamentals(de30/07/2022a07/08/2022)8hrs"
+      "cursos": "  Microsoft AZ-900 parte 4: Azure Fundamentals  (de 30/07/2022 a  07/08/2022)  8hrs         "
     }
   ],
   "title": [

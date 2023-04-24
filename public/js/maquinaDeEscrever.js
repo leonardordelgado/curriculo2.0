@@ -23,7 +23,7 @@ window.onload= ()=>{
     }
     const titulo1 = `${msg} ME CHAMO:`
     const titulo2 = "LEONARDO RESENDE DELGADO"
-    const titulo3 = "Sou um DESENVOLVEDOR FULLSTACK</>"
+    const titulo3 = "Sou um DESENVOLVEDOR Back-end</>"
     
     typeWrite(titulo1, text1, () => typeWrite(titulo2, text2, ()=> typeWrite(titulo3, text3)));
 }
