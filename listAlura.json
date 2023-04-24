@@ -19,6 +19,9 @@
       "cursos": "  JavaScript: validações e reconhecimento de voz  (de 17/04/2023 a  19/04/2023)  6hrs         "
     },
     {
+      "cursos": "  JavaScript: métodos de array  (de 23/04/2023 a  24/04/2023)  8hrs         "
+    },
+    {
       "cursos": "  Azure: Deploy de uma webapp na nuvem da Microsoft  (de 01/05/2022 a  09/05/2022)  12hrs         "
     },
     {
@@ -39,7 +42,7 @@
   ],
   "title": [
     {
-      "title": "Front-end-44hs"
+      "title": "Front-end-52hs"
     },
     {
       "title": "DevOps-50hs"

@@ -6,8 +6,6 @@ import bodyParser from "body-parser";
 import db from "./backend/db/conectDb.js";//estancia da conexão com o banco
 import Users from "./backend/models/user.js";//estancia do model de usuario
 import Post from "./backend/models/post.js";//estancia do model dos posts
-import { axiosAlura } from "./backend/js/Axiosalura.js";
-
 const app = express()//referenciando o express
 
 //rotas
@@ -36,4 +34,4 @@ app.use("/", home)// informe de user da rota
 app.use("/externo/", externo)
 app.listen(PORT(),()=>{
     console.log("servidor em execuxão")
-},axiosAlura())
+})
