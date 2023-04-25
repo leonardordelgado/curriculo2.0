@@ -8,9 +8,8 @@ import { axiosAlura } from "../../js/Axiosalura.js";
 router.get("/", async(req, res)=>{
     axiosAlura()
     const post =  await Post.findAll()
-    const titleAlura =  lerJasonTitle()
-    const courseAlura =  lerJasonCourse()
-    res.render("home/home", {post:post, titleAlura:titleAlura, courseAlura:courseAlura})
+    
+    res.render("home/home", {post:post, lerJasonTitle:lerJasonTitle, lerJasonCourse:lerJasonCourse})
 })
 
 

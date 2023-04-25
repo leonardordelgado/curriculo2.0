@@ -13,6 +13,9 @@
       "cursos": "  JavaScript: manipulando o DOM  (de 16/04/2023 a  16/04/2023)  6hrs         "
     },
     {
+      "cursos": "  JavaScript: criando requisições  (de 24/04/2023 a  25/04/2023)  8hrs         "
+    },
+    {
       "cursos": "  JavaScript: consumindo e tratando dados de uma API  (de 19/04/2023 a  20/04/2023)  6hrs         "
     },
     {
@@ -42,7 +45,7 @@
   ],
   "title": [
     {
-      "title": "Front-end-52hs"
+      "title": "Front-end-60hs"
     },
     {
       "title": "DevOps-50hs"

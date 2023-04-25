@@ -1,7 +1,7 @@
 
 import alura from '../../listAlura.json' assert { type: "json" };
 
-export function lerJasonTitle(){
+export  function lerJasonTitle(){
     const title = []
      alura.title.map((item)=>{
        title.push(item)
